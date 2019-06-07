@@ -1,0 +1,5 @@
+n12=int(input())
+l11=list(input())
+l12=set(['a','e','i','o','u','A','E','I','O','U'])
+b1=list(filter(lambda x1: x1 not in l12, l11))
+print("".join(b1[::-1]))
